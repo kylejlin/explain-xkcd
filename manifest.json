@@ -1,5 +1,5 @@
 {
-  "name": "Explainxkcd",
+  "name": "explain xkcd",
   "version": "1.0",
   "description": "It's 'cause you're dumb.",
   "manifest_version": 2,
@@ -8,7 +8,6 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "options_page": "options.html",
   "page_action": {
     "default_popup": "popup.html"
   }
