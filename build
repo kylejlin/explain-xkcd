@@ -1,0 +1,7 @@
+#! /bin/sh
+
+if [ ! -d "./artifacts" ]; then
+  mkdir artifacts
+fi
+
+zip -r ./artifacts/explain-xkcd.zip ./images/ ./background.js ./manifest.json ./popup.html ./popup.js

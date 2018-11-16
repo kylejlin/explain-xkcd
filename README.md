@@ -8,6 +8,23 @@ Whenever I don't understand an xkcd comic, I open a new tab and type "explain xk
 
 Now, you can click on the picture of man with the black hat at the top right of your browser and instantly navigate to the explanation page.
 
+## Development
+
+```sh
+git clone https://github.com/kylejlin/explain-xkcd.git
+cd explain-xkcd
+chmod +x build
+```
+
+Then you can use
+
+```sh
+./build
+```
+
+to zip up the necessary files for distribution.
+The resulting zip file can be found at `./artifacts/explain-xkcd.zip`.
+
 ## Photo Credits
 
 Default icon (Black Hat): Randall Munroe - from xkcd.com/1023 "Kill Hitler"
