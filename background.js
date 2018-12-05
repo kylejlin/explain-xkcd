@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(() => {
       {
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { hostEquals: "xkcd.com" }
+            pageUrl: { hostSuffix: "xkcd.com" }
           })
         ],
         actions: [new chrome.declarativeContent.ShowPageAction()]
