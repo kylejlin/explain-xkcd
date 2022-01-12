@@ -1,6 +1,6 @@
 {
   "name": "explain xkcd",
-  "version": "1.1",
+  "version": "1.2",
   "description": "It's 'cause you're dumb.",
   "manifest_version": 2,
   "permissions": ["tabs", "activeTab", "declarativeContent"],
